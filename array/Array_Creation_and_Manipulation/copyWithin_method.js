@@ -2,8 +2,10 @@
  * copyWithin() method
  * The copyWithin() method in JavaScript is used to shallow copy a part of an array to another location in the same array without changing its length.
  * This method modifies the original array and returns it.
+ *
  * Syntex
  * array.copyWithin(target, start, end)
+ *
  * Parameters
  * target: The index at which to copy the sequence to. If negative, it is counted from the end.
  * start (optional): The index at which to start copying elements from. If omitted, it defaults to 0. If negative, it is counted from the end.
